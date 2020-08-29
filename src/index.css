@@ -2,6 +2,16 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap');
 
+:root {
+  --color-primary: #8435A5;
+  --color-primary-lighter: #B06CEA;
+  --color-primary-darker: #451F55;
+  --color-secondary: #FDE82D;
+  --color-accent: #E54F6D;
+  --color-white: #FFFFFF;
+  --color-black: #000000;
+}
+
 body {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, 'Inter', 'Roboto', 'Oxygen',
