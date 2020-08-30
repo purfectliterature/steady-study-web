@@ -17,7 +17,7 @@ export default (props) => {
     return (
         <form className="contact-form" name="contact" method="post">
             <input type="hidden" name="form-name" value="contact" />
-            
+
             <div className="form">
                 <TextBox
                     id={`name-${suffix}`}
@@ -27,6 +27,7 @@ export default (props) => {
                     onChange={setName}
                     type="text"
                     dark={dark || false}
+                    name={"name"}
                 />
 
                 <TextBox
@@ -37,6 +38,7 @@ export default (props) => {
                     onChange={setEmail}
                     type="email"
                     dark={dark || false}
+                    name={"email"}
                 />
             </div>
 

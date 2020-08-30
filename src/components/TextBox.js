@@ -10,7 +10,8 @@ export default (props) => {
         onChange,
         multiline,
         type,
-        dark
+        dark,
+        name
     } = props;
 
     // const [focused, setFocused] = useState(false);
@@ -34,7 +35,7 @@ export default (props) => {
             return (
                 <input
                     id={id}
-                    name={id}
+                    name={name}
                     type={type || "text"}
                     placeholder={appendedClasses === "active" ? placeholder : ""}
                     className={`textbox ${appendedClasses}`}
