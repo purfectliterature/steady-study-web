@@ -3,25 +3,60 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap');
 
 :root {
-  --color-primary: #8435A5;
-  --color-primary-lighter: #B06CEA;
-  --color-primary-darker: #451F55;
-  --color-secondary: #FDE82D;
-  --color-accent: #E54F6D;
-  --color-white: #FFFFFF;
-  --color-black: #000000;
+    --color-primary: #8435A5;
+    --color-primary-lighter: #B06CEA;
+    --color-primary-darker: #451F55;
+    --color-secondary: #FDE82D;
+    --color-accent: #E54F6D;
+    --color-white: #FFFFFF;
+    --color-black: #000000;
 }
 
 body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Inter', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+    margin: 0;
+    font-family: -apple-system, BlinkMacSystemFont, 'Inter', 'Roboto', 'Oxygen',
+        'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+        sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    /* background-color: #f3f3f3; */
 }
 
 code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+    font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+        monospace;
+}
+
+h1 {
+    font-family: "Rubik";
+    font-size: 32pt;
+    font-weight: 500;
+    letter-spacing: -0.03em;
+}
+
+h2 {
+    font-family: "Rubik";
+    font-size: 28pt;
+    font-weight: 500;
+    letter-spacing: -0.03em;
+    margin: 0 0 1rem 0;
+}
+
+h3 {
+    font-family: "Inter";
+    font-size: 18pt;
+    font-weight: 600;
+    margin: 0 0 1rem 0;
+}
+
+h4 {
+    font-family: "Inter";
+    font-size: 16pt;
+    font-weight: 500;
+    margin: 0 0 2rem 0;
+}
+
+p {
+    font-family: "Inter";
+    font-size: 14pt;
 }

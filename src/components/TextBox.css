@@ -1,0 +1,120 @@
+.textbox-container {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin: 0.5rem 0 0 0;
+}
+
+.textbox {
+    width: 100%;
+    padding: 0.7rem 1.2rem;
+    border: 0 solid var(--color-secondary);
+    border-radius: 0.7rem;
+    background-color: rgba(0,0,0,0.1);
+    font-family: "Inter";
+    font-weight: 500;
+    font-size: 1.1rem;
+    color: var(--color-primary-darker);
+    outline: none;
+    transition-timing-function: ease-in-out;
+    transition-duration: .1s;
+    transition-property: background-color, border-color;
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+}
+
+.textbox-container label {
+    font-family: "Inter";
+    font-weight: 500;
+    font-size: 1.1rem;
+    color: rgba(0,0,0,0.4);
+    position: absolute;
+    /* transform: translate(0, -1rem); */
+    transform-origin: top left;
+    transition: all .1s ease-in-out;
+    transition-timing-function: ease-in-out;
+    transition-duration: .1s;
+    transition-property: all;
+    margin: 0.7rem 0 0 1.2rem ;
+    -webkit-touch-callout: none;
+    -webkit-user-select: none; 
+    -khtml-user-select: none; 
+    -moz-user-select: none; 
+    -ms-user-select: none; 
+    user-select: none;
+    cursor: text;
+}
+
+.textbox-container.active label {
+    background-color: var(--color-white);
+    padding: 0 0.3rem;
+    margin: 0 0 0 0.9rem;
+    transform: translate(0, -0.5rem) scale(.8);
+    color: var(--color-primary-lighter);
+}
+
+.textbox.active {
+    background-color: rgba(0,0,0,0);
+    border-width: 0.2rem;
+    border-style: solid;
+    border-color: var(--color-primary-lighter);
+    padding: 0.5rem 1rem;
+}
+
+.textbox-container textarea {
+    height: 7rem;
+    overflow-y: scroll;
+    resize: vertical;
+    font-weight: 400;
+}
+
+.textbox.filled {
+    background-color: rgba(0,0,0,0);
+    border-width: 0.2rem;
+    border-style: solid;
+    border-color: var(--color-primary-darker);
+    padding: 0.5rem 1rem;
+}
+
+.textbox-container.filled label {
+    background-color: var(--color-white);
+    padding: 0 0.3rem;
+    margin: 0 0 0 0.9rem;
+    transform: translate(0, -0.5rem) scale(.8);
+    color: var(--color-primary-darker);
+}
+
+.textbox-container.dark .textbox {
+    background-color: rgba(256,256,256,0.6);
+    color: var(--color-white);
+}
+
+.textbox-container.dark.filled label {
+    background-color: var(--color-primary-darker);
+    color: var(--color-white);
+}
+
+.textbox-container.dark .textbox.filled {
+    background-color: rgba(0,0,0,0);
+    border-color: var(--color-white);
+}
+
+.textbox-container.dark.active label {
+    background-color: var(--color-primary-darker);
+    color: #4ACFFF;
+}
+
+.textbox-container.dark .textbox.active {
+    background-color: rgba(0,0,0,0);
+    border-color: #4ACFFF;
+    padding: 0.5rem 1rem;
+}
+
+.textbox-container.dark .textbox::placeholder {
+    color: #A3A3A3;
+}
+
+.textbox-container.dark label {
+    color: #4B4B4B;
+}

@@ -1,0 +1,33 @@
+.textbox {
+    border: 0 solid var(--color-secondary);
+    outline: none;
+    width: 100%;
+    padding: 1rem 1rem;
+    font-family: "Inter";
+    font-weight: 500;
+    font-size: 1.3rem;
+    color: var(--color-primary-darker);
+}
+
+.textbox-container {
+    -webkit-box-shadow: 0px 10px 86px 0px rgba(0,0,0,0.18);
+    -moz-box-shadow: 0px 10px 86px 0px rgba(0,0,0,0.18);
+    box-shadow: 0px 10px 86px 0px rgba(0,0,0,0.18);
+    background-color: var(--color-white);
+    border-radius: 1.2rem;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 0 1.5rem;
+    color: var(--color-primary);
+    transition-timing-function: ease-in-out;
+    transition-duration: .2s;
+    transition-property: box-shadow, transform;
+}
+
+.textbox-container.active {
+    -webkit-box-shadow: 0px 10px 69px 0px rgba(0,0,0,0.33);
+    -moz-box-shadow: 0px 10px 69px 0px rgba(0,0,0,0.33);
+    box-shadow: 0px 10px 69px 0px rgba(0,0,0,0.33);
+    transform: translateY(-4px);
+}

@@ -1,0 +1,125 @@
+.feature-container {
+    width: 100%;
+}
+
+.feature-container.grey {
+    background-color: #f3f3f3;
+}
+
+section.feature {
+    display: flex;
+    flex-direction: row;
+    max-width: 1300px;
+    margin: auto;
+    padding: 0 5rem;
+    color: var(--color-primary);
+}
+
+section.feature.left {
+    flex-direction: row-reverse;
+}
+
+section.feature .illustration {
+    width: 100%;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+}
+
+section.feature .illustration.photo img {
+    width: 100%;
+}
+
+section.feature .illustration.graphic {
+    padding: 3rem 0;
+}
+
+section.feature .illustration.graphic img {
+    width: 60%;
+}
+
+section.feature .content {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    box-sizing: border-box;
+    padding: 3rem 0;
+}
+
+section.feature.left .content {
+    width: calc(100% - 5rem);
+    padding-right: 5rem;
+}
+
+@media only screen and (max-width: 1090px) {
+    section.feature .illustration.photo {
+        margin-right: -5rem;
+        width: calc(100% + 10rem);
+    }
+
+    section.feature .illustration.graphic img {
+        width: 70%;
+    }
+}
+
+@media only screen and (max-width: 1000px) {
+    section.feature {
+        flex-direction: column;
+    }
+
+    section.feature.left {
+        flex-direction: column;
+    }
+
+    section.feature .content {
+        justify-content: flex-start;
+    }
+
+    section.feature.left .content {
+        width: 100%;
+        padding-right: 0rem;
+    }
+
+    section.feature .illustration.graphic img {
+        width: 50%;
+    }
+
+    section.feature .illustration.photo {
+        margin-right: 5rem;
+        padding-top: 3rem;
+        width: 100%;
+    }
+
+    section.feature .illustration.photo img {
+        width: 80%;
+    }
+
+    section.feature .illustration.graphic {
+        padding-bottom: 0;
+    }
+}
+
+@media only screen and (max-width: 917px) {
+    section.feature {
+        padding: 0rem 2rem;
+    }
+}
+
+@media only screen and (max-width: 695px) {
+
+    section.feature .illustration.graphic img {
+        width: 80%;
+    }
+
+    section.feature .illustration.photo {
+        margin-right: -2rem;
+        margin-left: -2rem;
+        padding-top: 0;
+        width: calc(100% + 4rem);
+    }
+
+    section.feature .illustration.photo img {
+        width: 100%;
+    }
+}

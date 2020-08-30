@@ -1,0 +1,38 @@
+.button {
+    font-family: "Inter";
+    font-weight: 700;
+    font-size: 1.1rem;
+    border: none;
+    border-radius: 0.7rem;
+    background-color: var(--color-primary);
+    color: white;
+    padding: 0.7rem 1.5rem;
+    transition: ease-in 0.1s;
+    /* box-shadow: 0 0.5rem 0.7rem 0.1rem rgba(0,92,216,0.3); */
+    outline: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+
+.button:hover {
+    opacity: 0.8;
+}
+
+.button:active {
+    transform: scale(0.9);
+}
+
+.button svg {
+    margin-left: 0.5rem;
+}
+
+.anchor-button-container {
+    text-decoration: none;
+}
+
+.button.dark {
+    background-color: var(--color-primary);
+    color: white;
+}

@@ -1,0 +1,39 @@
+div.form {
+    display: flex;
+    flex-direction: row;
+}
+
+div.form .textbox-container {
+    width: 100%;
+}
+
+div.form .textbox-container + .textbox-container {
+    margin-left: 1rem;
+}
+
+div.subscribe {
+    display: flex;
+    flex-direction: column;
+}
+
+div.subscribe .button {
+    margin-top: 1rem;
+    align-self: flex-end;
+}
+
+@media only screen and (max-width: 575px) {
+    div.form {
+        display: flex;
+        flex-direction: column;
+    }
+
+    div.form .textbox-container + .textbox-container {
+        margin-left: 0;
+        margin-top: 1rem;
+    }
+
+    div.subscribe .button {
+        margin-top: 1rem;
+        width: 100%;
+    }
+}
