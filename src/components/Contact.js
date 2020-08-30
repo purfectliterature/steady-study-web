@@ -15,7 +15,7 @@ export default (props) => {
     const [email, setEmail] = useState("");
 
     return (
-        <div className="subscribe">
+        <form className="contact-form" name="contact" method="post">
             <div className="form">
                 <TextBox
                     id={`name-${suffix}`}
@@ -43,7 +43,8 @@ export default (props) => {
                 onClick={() => {}}
                 icon={<SendIcon />}
                 dark={dark || false}
+                type="submit"
             />
-        </div>
+        </form>
     );
 }

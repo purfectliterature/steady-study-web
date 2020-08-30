@@ -11,12 +11,12 @@ div.form .textbox-container + .textbox-container {
     margin-left: 1rem;
 }
 
-div.subscribe {
+.contact-form {
     display: flex;
     flex-direction: column;
 }
 
-div.subscribe .button {
+.contact-form .button {
     margin-top: 1rem;
     align-self: flex-end;
 }
@@ -32,7 +32,7 @@ div.subscribe .button {
         margin-top: 1rem;
     }
 
-    div.subscribe .button {
+    .contact-form .button {
         margin-top: 1rem;
         width: 100%;
     }
