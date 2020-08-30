@@ -38,11 +38,11 @@ figure.hero-illustration {
 .badges {
     display: flex;
     flex-direction: row;
+    margin-top: 3rem;
 }
 
 .badges img {
     height: 4rem;
-    margin-top: 3rem;
 }
 
 .badges a + a {
@@ -79,5 +79,16 @@ figure.hero-illustration {
 @media only screen and (max-width: 575px) {
     figure.hero-illustration > img {
         width: 100%;
+    }
+
+    .badges {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    .badges a + a {
+        margin-left: 0rem;
+        margin-top: 1rem;
     }
 }
