@@ -51,11 +51,11 @@ footer .sponsors .sponsors-logo a + a {
 
 footer p.copyright {
     text-align: center;
-    margin-top: 5rem;
     text-justify: distribute;
     max-width: 1000px;
     font-size: 11pt;
     color: #cecece;
+    margin: 5rem 0 0 0;
 }
 
 footer p.copyright a {
