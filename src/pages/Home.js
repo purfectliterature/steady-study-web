@@ -11,13 +11,13 @@ export default (props) => {
             <div className="hero-content">
                 <img alt="Steady Study logo" className="logo" src={require("../assets/logo-coloured.svg")} />
 
-                <h1>When everybody is steady, you can study calmly.</h1>
+                <h1>Because your time is for studying, not finding seats.</h1>
 
                 <p>
-                    The first platform organising study spaces at NUS, saving you time and hassle. Coming real soon!
+                    The first platform organising study spaces at NUS, helping you finding seats faster and smarter.
                 </p>
 
-                <h3>Be the first to know when we launch!</h3>
+                <h3>Be the first to know when Steady Study launches!</h3>
 
                 <Contact suffix="hero" />
             </div>
@@ -38,8 +38,12 @@ export default (props) => {
         </section>
 
         <Feature
-            title="By students, for students."
-            description="The first platform organising study spaces at NUS, saving you time and hassle. Coming real soon! The first platform organising study spaces at NUS, saving you time and hassle. Coming real soon!"
+            title="A smarter way to study on campus."
+            description={<>
+                Steady Study provides you with real-time seat availabilities, floor maps, and bookings information for the study spaces at NUS. You can view available seats before taking that long travel to campus.<br/><br/>
+                
+                You can also make bookings at least a day before, so you can study without worrying that your seat might be taken.
+            </>}
             grey
             illustration={require("../assets/studying-girl.svg")}
             alt="Girl studying"
@@ -48,8 +52,10 @@ export default (props) => {
         />
 
         <Feature
-            title="By students, for students."
-            description="The first platform organising study spaces at NUS, saving you time and hassle. Coming real soon! The first platform organising study spaces at NUS, saving you time and hassle. Coming real soon!"
+            title="Robust check-in system."
+            description={<>
+                After Steady Study officially launches, QR codes will be pasted on seats in select study spaces across campus. A simple 3-second scan entitles you to the seat, or starts your booking.<br/><br/>
+            </>}
             illustration={require("../assets/steady-study-qr-table.png")}
             alt="QR code on table"
             direction="left"
@@ -58,7 +64,11 @@ export default (props) => {
 
         <Feature
             title="Fair spaces for all."
-            description="The first platform organising study spaces at NUS, saving you time and hassle. Coming real soon! The first platform organising study spaces at NUS, saving you time and hassle. Coming real soon!"
+            description={<>
+                The Steady Study cat comes and sleeps on lonely taken-but-unoccupied seats. With Steady Study, seats are organised, and these seats will be opened for endeavouring students like you!<br/><br/>
+                
+                <span style={{ fontSize: "11pt" }}>(and prevent the cat from getting fat from sleeping all the time)</span>
+            </>}
             grey
             illustration={require("../assets/lonely-cat.svg")}
             alt="Lonely cat"
