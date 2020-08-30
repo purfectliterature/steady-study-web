@@ -33,7 +33,7 @@ export default (props) => {
             </div>
 
             <p class="copyright">
-                Graphic of person studying on a desk and girl studying in library are created by <a href="https://stories.freepik.com/home" target="_blank" rel="noreferrer noopener">Freepik Stories</a>.<br/>
+                Graphic of person studying on a desk and girl studying in library are created by <a href="https://stories.freepik.com/home" target="_blank" rel="noreferrer noopener">Freepik Stories</a>.<br/><br/>
                 Graphic of cat silhouettes are attributed to: <a href="https://www.freepik.com/vectors/party">Party vector created by freepik - www.freepik.com</a>.
             </p>
         </footer>

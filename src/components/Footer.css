@@ -5,7 +5,7 @@ footer {
     flex-direction: column;
     align-items: center;
 
-    padding: 5rem 0;
+    padding: 5rem 2rem;
     color: white;
 }
 
@@ -26,6 +26,7 @@ footer .contact .logo-white img {
 }
 
 footer .sponsors {
+    width: 100%;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -36,6 +37,8 @@ footer .sponsors {
 footer .sponsors .sponsors-logo {
     display: flex;
     flex-direction: row;
+    width: 100%;
+    justify-content: center;
 }
 
 footer .sponsors .sponsors-logo img {
@@ -68,10 +71,13 @@ footer p.copyright a:hover {
 @media only screen and (max-width: 910px) {
     footer .contact {
         flex-direction: column;
-        padding: 0 2rem;
     }
     
     footer .contact .logo-white {
         margin: 0 0 3rem 0;
+    }
+
+    footer .sponsors .sponsors-logo img {
+        height: 4rem;
     }
 }
