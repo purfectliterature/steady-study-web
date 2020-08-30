@@ -76,8 +76,23 @@ footer p.copyright a:hover {
     footer .contact .logo-white {
         margin: 0 0 3rem 0;
     }
+}
+
+@media only screen and (max-width: 575px) {
+    footer .sponsors .sponsors-logo {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-top: 1rem;
+    }
+
+    footer .sponsors .sponsors-logo a + a {
+        margin-left: 0rem;
+        margin-top: 2rem;
+    }
 
     footer .sponsors .sponsors-logo img {
-        height: 4rem;
+        width: 11rem;
+        height: auto;
     }
 }
