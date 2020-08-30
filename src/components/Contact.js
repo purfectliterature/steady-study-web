@@ -16,6 +16,8 @@ export default (props) => {
 
     return (
         <form className="contact-form" name="contact" method="post">
+            <input type="hidden" name="form-name" value="contact" />
+            
             <div className="form">
                 <TextBox
                     id={`name-${suffix}`}
