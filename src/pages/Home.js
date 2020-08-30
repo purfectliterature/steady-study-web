@@ -25,7 +25,7 @@ export default (props) => {
             <figure className="hero-illustration">
                 <img alt="Person studying" src={require("../assets/studying.svg")} />
 
-                <div class="badges">
+                <div className="badges">
                     <a href="#" target="_blank" rel="noreferrer noopener">
                         <img alt="Pre-order on App Store" src={require("../assets/badge-pre-order-apple.svg")} />
                     </a>
