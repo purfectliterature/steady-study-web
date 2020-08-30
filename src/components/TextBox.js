@@ -11,7 +11,8 @@ export default (props) => {
         multiline,
         type,
         dark,
-        name
+        name,
+        required
     } = props;
 
     // const [focused, setFocused] = useState(false);
@@ -42,6 +43,7 @@ export default (props) => {
                     onFocus={() => setAppendedClasses("active")}
                     onBlur={() => setAppendedClasses(value !== "" ? "filled" : "")}
                     onChange={(event) => onChange(event.target.value)}
+                    required={required || false}
                 />
             );
         }

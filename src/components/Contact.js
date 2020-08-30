@@ -28,6 +28,7 @@ export default (props) => {
                     type="text"
                     dark={dark || false}
                     name={"name"}
+                    required
                 />
 
                 <TextBox
@@ -39,6 +40,7 @@ export default (props) => {
                     type="email"
                     dark={dark || false}
                     name={"email"}
+                    required
                 />
             </div>
 
