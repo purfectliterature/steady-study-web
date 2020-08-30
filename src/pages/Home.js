@@ -26,11 +26,11 @@ export default (props) => {
                 <img alt="Person studying" src={require("../assets/studying.svg")} />
 
                 <div className="badges">
-                    <a href="#" target="_blank" rel="noreferrer noopener">
+                    <a href="https://apple.com" target="_blank" rel="noreferrer noopener">
                         <img alt="Pre-order on App Store" src={require("../assets/badge-pre-order-apple.svg")} />
                     </a>
 
-                    <a href="#" target="_blank" rel="noreferrer noopener">
+                    <a href="https://play.google.com" target="_blank" rel="noreferrer noopener">
                         <img alt="Pre-register on Play Store" src={require("../assets/badge-pre-register-play-store.png")} />
                     </a>
                 </div>
